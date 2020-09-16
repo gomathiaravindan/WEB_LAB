@@ -1,0 +1,79 @@
+body{
+            
+    background:linear-gradient(to right,red,purple);
+   }
+   h1{
+       text-align:center;
+       color:white;
+       font-family: 'Ramabhadra', sans-serif;
+
+   }
+   h2{
+       text-align:center;
+       color:darkolivegreen;
+       font-family: 'Ramabhadra', sans-serif;
+   }
+   .header{
+       border:1px solid white;
+       background-color:white;
+       padding:15px 32px;
+       width:25%;
+       margin:auto;
+       border-radius:10px;
+   }
+   input{
+       border-radius:10px 0px 10px 0px;
+       padding:10px;
+       
+   }
+   input[type = "submit"]{
+       border:1px solid white;
+       color:white;
+       border-radius:10px 10px 10px 10px;
+       padding:15px 32px;
+       background-color:blue;
+   }
+   input[type = "reset"]{
+       border:1px solid white;
+       color:white;
+       border-radius:10px 10px 10px 10px;
+       padding:15px 32px;
+       background-color:blue;
+   }
+   input[type = "text"]{
+       font-family:'Times New Roman', Times, serif;
+       font-size:20px;
+   }
+   label{
+       font-weight:bold;
+       font-size:20px;
+       font-family: 'Ramabhadra', sans-serif;
+   }
+   input[type = "submit"]:hover{
+       box-shadow:2px 2px 2px 2px blue;
+   }
+   input[type = "reset"]:hover{
+       box-shadow:2px 2px 2px 2px blue;
+   }
+   input[type = "text"]:hover{
+       box-shadow:2px 2px 2px 2px darkblue;
+       border-radius:10px 10px 10px 10px;
+   }
+   input[type = "email"]:hover{
+    box-shadow:2px 2px 2px 2px darkblue;
+    border-radius:10px 10px 10px 10px;
+   }
+   input[type = "text"]:hover{
+    box-shadow:2px 2px 2px 2px darkblue;
+    border-radius:10px 10px 10px 10px;
+   }
+   input[type = "number"]:hover{
+    box-shadow:2px 2px 2px 2px darkblue;
+    border-radius:10px 10px 10px 10px;
+   }
+   #age{
+       border:1px solid gray;
+       border-radius:10px 10px 10px 10px;
+       background-color:black;
+       color:white; 
+   }
