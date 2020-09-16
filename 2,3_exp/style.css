@@ -1,0 +1,62 @@
+
+
+.about img{
+   margin-left:450px;
+   height:500px;
+   width:700px;
+}
+.about{
+    background-color:#011627;
+    color:white;
+    width:auto;
+    
+}
+.container  {
+    font-family: 'Amaranth', sans-serif;
+    text-align:center;
+    font-size:20px;
+    
+}
+.container p{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.course{
+    background-color: #011627;
+    color:white;
+    font-size:18px;
+    font-family: 'Amaranth', sans-serif;
+    width:auto;
+}
+.course_list{
+    text-align:center;
+}
+.lists{
+   margin-left:650px;
+   padding-bottom:20px;
+}
+
+.lists li{
+    list-style:none;
+}
+.club{
+    background-color: #011627;
+    color:white;
+    font-size:18px;
+    font-family: 'Amaranth', sans-serif;
+    width:auto;
+}
+.cnct{
+    background-color: darkslategrey;
+    width:auto;
+    height:150px;
+    color:white;
+    font-family: 'Amaranth', sans-serif;
+   
+
+}
+@media screen and (max-width:400px){
+    nav{
+        display:none;
+       }
+}
